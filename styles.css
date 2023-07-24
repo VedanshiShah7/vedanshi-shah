@@ -254,28 +254,28 @@ body {
 
   @font-face {
     font-family: 'Love Ya Like A Sister';
-    src: url('Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
+    src: url('fonts/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
     font-weight: normal; /* You can specify font-weight if needed */
     font-style: normal; /* You can specify font-style if needed */
   }
 
   @font-face {
     font-family: 'Freehand';
-    src: url('Freehand/Freehand-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
+    src: url('fonts/Freehand/Freehand-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
     font-weight: normal; /* You can specify font-weight if needed */
     font-style: normal; /* You can specify font-style if needed */
   }
 
   @font-face {
     font-family: 'Lato';
-    src: url('Lato/Lato-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
+    src: url('fonts/Lato/Lato-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
     font-weight: normal; /* You can specify font-weight if needed */
     font-style: normal; /* You can specify font-style if needed */
   }
 
   @font-face {
     font-family: 'League Spartan';
-    src: url('League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
+    src: url('fonts/League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
     font-weight: normal; /* You can specify font-weight if needed */
     font-style: normal; /* You can specify font-style if needed */
   }
