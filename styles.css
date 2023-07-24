@@ -1,0 +1,283 @@
+/* Add your CSS styles here */
+body {
+    /* margin: 0;
+    padding: 0; */
+    /* linear gradient */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px; /* Add margin to create space between header and body */
+    /* background: linear-gradient(180deg, #C6B7CE 50%, #C6B7CE00 50%); */
+    background: linear-gradient(#C6B7CE, #C6B7CE00);
+}
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-align {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-align {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .github {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .linkedin {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .header-title {
+    font-size: 24px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+  }
+  
+  .header-item {
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    margin-right: 16px;
+  }
+
+  .header-item-2 {
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    margin-right: 35px;
+  }
+
+  .content-container {
+    flex: 1;
+  }
+  
+  .logo-2 {
+    width: 100px;
+    height: auto;
+  }
+
+  .logo-container {
+    flex: 1;
+    text-align: right;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+  .about-me {
+    width: '100%';
+    height: '100%';
+    text-align: 'justify';
+    color: 'black';
+    font-size: 36;
+    font-family: 'Love Ya Like A Sister';
+    font-weight: '400';
+    word-wrap: 'break-word';
+  }
+  
+  /* ------------------------------------------------------------ */
+  .main-container {
+    padding: 20px;
+  }
+
+  .text-container {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text-container-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .content-wrapper {
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .logo-container{
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .logo-2 {
+    width: 25%;
+    height: auto;
+  }
+  
+  .section {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .section .left-section {
+    /* Set the larger section to take 75% of the available space */
+    flex: 0.75;
+  }
+  
+  .section .right-section {
+    flex: 0.25; /* Set the smaller section to take 25% of the available space */
+  }
+  
+  .text-container .left-section{
+    flex: 0.75;
+  }
+
+  .text-container .right-section{
+    flex: 0.25;
+  }
+
+  .button-container {
+    text-align: center; /* Center the buttons horizontally within the container */
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .button-container button {
+    width: 45%;
+    height: 50px;
+    background: #746A7A;
+    border-radius: 7px;
+    color: white;
+    margin: 5px;
+  }
+
+  .button-container-2 {
+    text-align: left; /* Center the buttons horizontally within the container */
+    margin-top: 20px;
+    justify-content: left;
+  }
+  
+  .button-container-2 button {
+    width: 100%;
+    height: 50px;
+    background: #746A7A;
+    border-radius: 7px;
+    color: white;
+    margin: 5px;
+  }
+
+  .why-hire-me {
+    width: '100%';
+    height: '100%';
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background-color: #746A7A;
+    border-radius: 40;
+    border: '7.50px rgba(255, 255, 255, 0.20) solid';
+  }
+
+  .text-container-3 {
+    justify-content: center;
+    text-align: center;
+    font-size: 36;
+    font-family: 'Lato';
+    font-weight: '100';
+    color: white;
+    word-wrap: 'break-word';
+  }
+
+  .white-box {
+    width: '100%';
+    height: '100%';
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+    }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;    
+    display: flex;
+    /* justify-content: space-between; */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+
+  @font-face {
+    font-family: 'Love Ya Like A Sister';
+    src: url('Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
+    font-weight: normal; /* You can specify font-weight if needed */
+    font-style: normal; /* You can specify font-style if needed */
+  }
+
+  @font-face {
+    font-family: 'Freehand';
+    src: url('Freehand/Freehand-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
+    font-weight: normal; /* You can specify font-weight if needed */
+    font-style: normal; /* You can specify font-style if needed */
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
+    font-weight: normal; /* You can specify font-weight if needed */
+    font-style: normal; /* You can specify font-style if needed */
+  }
+
+  @font-face {
+    font-family: 'League Spartan';
+    src: url('League_Spartan/LeagueSpartan-VariableFont_wght.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
+    font-weight: normal; /* You can specify font-weight if needed */
+    font-style: normal; /* You can specify font-style if needed */
+  }
+  
+  
