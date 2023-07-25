@@ -320,6 +320,17 @@ body {
     margin: auto;
   }
 
+  /* ----------- research, projects and work ------------- */
+  .text {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    justify-content: center;
+  }
+
   @font-face {
     font-family: 'Love Ya Like A Sister';
     src: url('fonts/Love_Ya_Like_A_Sister/LoveYaLikeASister-Regular.ttf') format('truetype'); /* Replace 'path/to/your-custom-font.ttf' with the actual URL of your font file */
