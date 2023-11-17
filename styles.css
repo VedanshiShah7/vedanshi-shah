@@ -405,6 +405,7 @@ body {
   }
 
   .work-section {
+    padding: 20px;
     display: flex;
     flex-direction: row;
     align-items: left;
@@ -498,6 +499,7 @@ body {
     flex-direction: column;
     align-items: left;
     justify-content: space-between;
+    padding: 20px;
   }
 
   .project-section-spec {
@@ -558,6 +560,7 @@ body {
   }
 
   .research-section {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: left;
