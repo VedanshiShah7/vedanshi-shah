@@ -6,6 +6,7 @@ body {
     align-items: center;
     margin-top: 80px; /* Add margin to create space between header and body */
     background: linear-gradient(#C6B7CE, #C6B7CE00);
+    transition: opacity 0.5s ease; 
   }
 
   header {
@@ -15,7 +16,7 @@ body {
     transform: translateX(-50%);
     margin-top: 10px;
     width: 75%;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(198, 183, 206, 1);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -24,9 +25,9 @@ body {
     border-radius: 30px;
     transition: background-color 0.3s ease; /* Smooth transition effect */
   }
-  
+
   .header-scroll {
-    background-color: rgba(255, 255, 255, 0.8); /* Change to your desired background color on scroll */
+    background-color: rgba(230,224,234,255); /* Change to your desired background color on scroll */
   }
 
   .left-align {
@@ -38,6 +39,10 @@ body {
     display: flex;
     align-items: center;
   }
+  
+  a.header-link:link {color:black;}
+  a.header-link:visited {color:black;}
+  a.header-link:hover {color:white;}
   
   .logo {
     width: 30px;
