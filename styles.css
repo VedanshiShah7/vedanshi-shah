@@ -5,7 +5,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 80px; /* Add margin to create space between header and body */
-    background: linear-gradient(#C6B7CE, #C6B7CE00);
+    background: linear-gradient(#DDD0C8, #ddd0c800);
     transition: opacity 0.5s ease; 
   }
 
@@ -16,7 +16,7 @@ body {
     transform: translateX(-50%);
     margin-top: 10px;
     width: 75%;
-    background-color: rgba(198, 183, 206, 1);
+    background-color: #BAA69A;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@ body {
   }
 
   .header-scroll {
-    background-color: rgba(230,224,234,255); /* Change to your desired background color on scroll */
+    background-color: #DDD0C8; /* Change to your desired background color on scroll */
   }
 
   .left-align {
@@ -203,7 +203,7 @@ body {
   .button-container button {
     width: 45%;
     height: 50px;
-    background: #746A7A;
+    background: #323232;
     border-radius: 7px;
     color: white;
     margin: 5px;
@@ -218,7 +218,7 @@ body {
   .button-container-2 button {
     width: 100%;
     height: 50px;
-    background: #746A7A;
+    background: #323232;
     border-radius: 7px;
     color: white;
     margin: 5px;
@@ -231,7 +231,7 @@ body {
     padding-right: 200px;
     padding-top: 50px;
     padding-bottom: 70px;
-    background-color: #746A7A;
+    background-color: #323232;
     border-radius: 40;
     border: '7.50px rgba(255, 255, 255, 0.20) solid';
   }
@@ -543,7 +543,7 @@ body {
   .project-buttons button {
     width: 30%;
     height: 50px;
-    background: #746A7A;
+    background: #323232;
     border-radius: 7px;
     color: white;
     margin: 20px;
@@ -660,7 +660,7 @@ body {
   .research-buttons button {
     width: 30%;
     height: 50px;
-    background: #746A7A;
+    background: #323232;
     border-radius: 7px;
     color: white;
     margin: 20px;
